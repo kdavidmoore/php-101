@@ -1,0 +1,19 @@
+img {
+  width: 100%;
+}
+
+.image-wrapper {
+  width: 400px;
+}
+
+.die-wrapper {
+  width: 40px;
+  display: none;
+}
+
+.panel {
+  border-right: 1px solid black;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 10px;
+}
