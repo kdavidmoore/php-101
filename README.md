@@ -1,9 +1,8 @@
-# Fight the Dragon: PHP Edition
+# Introduction to PHP
 
-The dragon game from Unit 1 was resurrected to learn PHP.
+## Contents
+1. Dragon Game (incomplete)
+2. Six Flags Clone (first version)
+3. Intro to object-oriented Programming in PHP (plants.php, recipes.php, and classes directory)
 
-##Features
-*Started translating the Fight the Dragon game from JavaScript to PHP
-*fib_sequence.php also contains a solution to an algorithmic problem written in PHP (not used by the dragon game)
-
-[I learned this at DigitalCrafts](https://www.digitalcrafts.com)
+[I learned this at DigitalCrafts](http://digitalcrafts.com)

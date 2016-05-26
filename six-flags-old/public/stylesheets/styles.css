@@ -1,0 +1,107 @@
+/* line 3, ../../compass/sass/styles.scss */
+img {
+  width: 100%;
+}
+
+/* line 7, ../../compass/sass/styles.scss */
+.header {
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+  height: 110px;
+  width: 100vw;
+}
+/* line 12, ../../compass/sass/styles.scss */
+.header .image-wrapper {
+  position: relative;
+  top: 5px;
+  left: 225px;
+  max-width: 167px;
+}
+/* line 18, ../../compass/sass/styles.scss */
+.header .unneccessary-text {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+/* line 22, ../../compass/sass/styles.scss */
+.header .unneccessary-text h2 {
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+/* line 26, ../../compass/sass/styles.scss */
+.header .unneccessary-text h6 {
+  color: white;
+  font-style: italic;
+}
+
+/* line 33, ../../compass/sass/styles.scss */
+.nav-tabs {
+  background: #f9fafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f9fafa 0%, #e1e1e1 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9fafa 0%, #e1e1e1 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9fafa 0%, #e1e1e1 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/* line 38, ../../compass/sass/styles.scss */
+.nav-tabs a {
+  text-transform: uppercase;
+  color: #282828;
+}
+/* line 42, ../../compass/sass/styles.scss */
+.nav-tabs a:hover {
+  background-color: #282828;
+  color: #FFCB00;
+}
+/* line 46, ../../compass/sass/styles.scss */
+.nav-tabs .green {
+  background: #80e747;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #80e747 0%, #38b74a 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #80e747 0%, #38b74a 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #80e747 0%, #38b74a 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* line 54, ../../compass/sass/styles.scss */
+.header-links {
+  margin-top: 5px;
+  float: right;
+}
+/* line 57, ../../compass/sass/styles.scss */
+.header-links ul {
+  list-style-type: none;
+}
+/* line 60, ../../compass/sass/styles.scss */
+.header-links li {
+  float: left;
+  margin-right: 15px;
+}
+/* line 64, ../../compass/sass/styles.scss */
+.header-links .white {
+  color: white;
+}
+/* line 67, ../../compass/sass/styles.scss */
+.header-links .yellow {
+  color: #FFCB00;
+}
+
+/* line 72, ../../compass/sass/styles.scss */
+.banner {
+  background: #282828;
+  box-sizing: border-box;
+  padding: 6px 0 10px 0;
+}
+/* line 76, ../../compass/sass/styles.scss */
+.banner h4 {
+  color: white;
+}
+
+/* line 81, ../../compass/sass/styles.scss */
+.footer {
+  background: #AC1E16;
+}
