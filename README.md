@@ -5,4 +5,4 @@
 2. Six Flags Clone (first version)
 3. Intro to object-oriented Programming in PHP (plants.php, recipes.php, and classes directory)
 
-[I learned this at DigitalCrafts](http://digitalcrafts.com)
+[I learned this at DigitalCrafts](https://www.digitalcrafts.com)
