@@ -32,7 +32,4 @@ class Plant
 		$this->distribution = $distro;
 	}
 
-	public function renderPlantInfo(){
-		return $this->getGenusSpecies() . ", part of the " . $this->getFamily() . " family, is located in " . $this->getDistribution() . ".\n";
-	}
 }

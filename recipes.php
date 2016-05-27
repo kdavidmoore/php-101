@@ -12,10 +12,10 @@ $recipe = new Recipe();
 // assign 'Chicken Soup' to the title property 
 $recipe->setTitle('Chicken Soup');
 // populate the ingredients array
-$recipe->addIngredient = ('broth', 2, 'cups');
-$recipe->addIngredient = ('chicken', 1, 'lbs');
-$recipe->addIngredient = ('noodles', 16, 'oz');
+$recipe->addIngredient('broth', 2, 'cups');
+$recipe->addIngredient('chicken', 1, 'lbs');
+$recipe->addIngredient('noodles', 16, 'oz');
 
 // call the static render method of the RenderRecipe class
-RenderRecipe::render($recipe);
+echo RenderRecipe::render($recipe);
 exit;

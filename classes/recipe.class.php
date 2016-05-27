@@ -4,10 +4,9 @@ class Recipe
 {
 	// protected properties are accessible only by the class and its children (RenderRecipe)
 	protected $title;
-	public $ingredients = array();
-	public $source = "Will's Kitchen";
-	public $instructions;
-	public $rating = "unrated";
+	protected $ingredients = array();
+	protected $instructions;
+	protected $rating = "unrated";
 	
 	// add some public methods
 	
@@ -21,13 +20,13 @@ class Recipe
 	}
 
 	private $allowedMeasurements = array(
-		'tsp', 'T', 'tbsp', 'C', 'cup', 'cups', 'oz', 'fl oz', 'bag'
+		'tsp', 'T', 'tbsp', 'C', 'cup', 'cups', 'oz', 'fl oz', 'bag', 'lbs'
 	);
 
 	public function addIngredient($item, $amount = null, $measurement = null){
 		// amount and measurement are optional parameters and are set to null if not included
 		
-		if(($measurement !== null) && (!in_array($measurement, $allowedMeasurements))){
+		if(($measurement !== null) && (!in_array(strtolower($measurement), $this->allowedMeasurements))){
 
 			die($measurement . " is not a valid measurement.");
 		}

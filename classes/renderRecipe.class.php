@@ -1,9 +1,9 @@
 <?php
 
-class RenderRecipe
+class RenderRecipe extends Recipe
 {
-	// RenderRecipe and render have access to title because it is protected not private
 	public static function render($theRecipe){
-		return $theRecipe->title . " submitted by " . $theRecipe->getSource() . " with rating " . $theRecipe->getRating() . "\n";
+		// we have access to title because RenderRecipe extends Recipe
+		return $theRecipe->title . " contains " . $theRecipe->ingredients[0]['item'] . "\n";
 	}
 }
