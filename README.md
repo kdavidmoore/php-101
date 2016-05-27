@@ -1,8 +1,8 @@
 # Introduction to PHP
 
 ## Contents
-1. Dragon Game (incomplete)
-2. Six Flags Clone (first version)
-3. Intro to object-oriented Programming in PHP (plants.php, recipes.php, and classes directory)
+1. Rewriting dragon game in PHP ('dragon-game-php' directory)
+2. First version of the Six Flags clone ('six-flags-old' directory)
+3. Intro to object-oriented Programming in PHP ('classes' directory, plants.php and recipes.php)
 
 [I learned this at DigitalCrafts](https://www.digitalcrafts.com)

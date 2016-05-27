@@ -10,11 +10,13 @@ require_once('classes/renderRecipe.class.php');
 // create a new object of class recipe
 $recipe = new Recipe();
 // assign 'Chicken Soup' to the title property 
+
 $recipe->setTitle('Chicken Soup');
+
 // populate the ingredients array
 $recipe->addIngredient('broth', 2, 'cups');
 $recipe->addIngredient('chicken', 1, 'lbs');
-$recipe->addIngredient('noodles', 16, 'oz');
+$recipe->addIngredient('noodles');
 
 // call the static render method of the RenderRecipe class
 echo RenderRecipe::render($recipe);

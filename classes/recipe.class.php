@@ -5,9 +5,25 @@ class Recipe
 	// protected properties are accessible only by the class and its children (RenderRecipe)
 	protected $title;
 	protected $ingredients = array();
+	protected $source = "Will's Kitchen";
 	protected $instructions;
 	protected $rating = "unrated";
 	
+	// if the title or source are not set
+	function __construct($title = null, $source = null){
+		if ($title !== null){
+			$this->title = $title;
+		}
+		if ($source !== null){
+			$this->source = $source;
+		}
+	}
+
+	function __toString(){
+		// if a script using this class tries to use a Recipe object as a string, this gets returned:
+		return "You are printing and object of type: " . __CLASS__ . ". It has a title of " . $this->title;
+	}
+
 	// add some public methods
 	
 	public function setTitle($title){
@@ -32,7 +48,7 @@ class Recipe
 		}
 
 		$this->ingredients[] = array(
-			'item' => ucwords($item),
+			'item' => strtolower($item),
 			'amount' => $amount,
 			'measure' => strtolower($measurement)
 		);
